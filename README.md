@@ -1,10 +1,17 @@
 # Discord Token Generator
 
 Uses Python and httpx library to create discord accounts
-- Hcaptcha Bypass, No need to pay for captcha services 😂 
-- Proxy Support added, paste your proxies into "proxies.txt" (user:pass only)
+- Hcaptcha Bypass
+- Proxy support
+- Auto joiner
+- Save to TXT file
+- Rich Terminal UI
+- 
 
+# Originality
 
+This is not mine!
+But i have changed the code so much that its basically a different project.
 
 ## Installation
 
@@ -24,7 +31,12 @@ On Mac:
 ```bash
 python3 main.py
 ```
+On Termux:
+```bash
+python main.py
+```
 
+Example:
 
 ```bash
 Initializing task
