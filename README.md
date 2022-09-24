@@ -6,7 +6,6 @@ Uses Python and httpx library to create discord accounts
 - Auto joiner
 - Save to TXT file
 - Rich Terminal UI
-- 
 
 # Originality
 

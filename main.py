@@ -1,7 +1,7 @@
 import time
 import httpx
 import random
-
+import config
 from constants import XSUPER
 from hcapbypass import bypass
 
@@ -75,7 +75,7 @@ class discord:
         print(f"Token: {self.token} ")
 
         with open("tokens.txt", "a") as f:
-            f.write(self.token)
+            f.write(self.token + "\n")
 
         return
         
@@ -179,5 +179,5 @@ class discord:
         
 
 if __name__ =="__main__":
-    discord("deals")
+    discord(config.invite)
     
